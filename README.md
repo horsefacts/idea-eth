@@ -1,66 +1,12 @@
-## Foundry
+# 💡 idea-eth
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+![Build Status](https://github.com/horsefacts/trading-days/actions/workflows/.github/workflows/test.yml/badge.svg?branch=main)
 
-Foundry consists of:
+Summer has come and passed, the innocent can never last...
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Deployments
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+| Network | Address                                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [`0x1deaf8d0ea1a693d689ad7840729a28384b61dea`](https://etherscan.io/address/0x1deaf8d0ea1a693d689ad7840729a28384b61dea)         |
+| Sepolia | [`0x1deaf8d0ea1a693d689ad7840729a28384b61dea`](https://sepolia.etherscan.io/address/0x1deaf8d0ea1a693d689ad7840729a28384b61dea) |
